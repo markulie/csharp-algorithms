@@ -1,0 +1,15 @@
+C:\Users\m\source\repos\CSharpAlgorithms\SwapMaxMin\bin\Debug\net6.0\SwapMaxMin.exe
+C:\Users\m\source\repos\CSharpAlgorithms\SwapMaxMin\bin\Debug\net6.0\SwapMaxMin.deps.json
+C:\Users\m\source\repos\CSharpAlgorithms\SwapMaxMin\bin\Debug\net6.0\SwapMaxMin.runtimeconfig.json
+C:\Users\m\source\repos\CSharpAlgorithms\SwapMaxMin\bin\Debug\net6.0\SwapMaxMin.dll
+C:\Users\m\source\repos\CSharpAlgorithms\SwapMaxMin\bin\Debug\net6.0\SwapMaxMin.pdb
+C:\Users\m\source\repos\CSharpAlgorithms\SwapMaxMin\obj\Debug\net6.0\SwapMaxMin.csproj.AssemblyReference.cache
+C:\Users\m\source\repos\CSharpAlgorithms\SwapMaxMin\obj\Debug\net6.0\SwapMaxMin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\m\source\repos\CSharpAlgorithms\SwapMaxMin\obj\Debug\net6.0\SwapMaxMin.AssemblyInfoInputs.cache
+C:\Users\m\source\repos\CSharpAlgorithms\SwapMaxMin\obj\Debug\net6.0\SwapMaxMin.AssemblyInfo.cs
+C:\Users\m\source\repos\CSharpAlgorithms\SwapMaxMin\obj\Debug\net6.0\SwapMaxMin.csproj.CoreCompileInputs.cache
+C:\Users\m\source\repos\CSharpAlgorithms\SwapMaxMin\obj\Debug\net6.0\SwapMaxMin.dll
+C:\Users\m\source\repos\CSharpAlgorithms\SwapMaxMin\obj\Debug\net6.0\refint\SwapMaxMin.dll
+C:\Users\m\source\repos\CSharpAlgorithms\SwapMaxMin\obj\Debug\net6.0\SwapMaxMin.pdb
+C:\Users\m\source\repos\CSharpAlgorithms\SwapMaxMin\obj\Debug\net6.0\SwapMaxMin.genruntimeconfig.cache
+C:\Users\m\source\repos\CSharpAlgorithms\SwapMaxMin\obj\Debug\net6.0\ref\SwapMaxMin.dll

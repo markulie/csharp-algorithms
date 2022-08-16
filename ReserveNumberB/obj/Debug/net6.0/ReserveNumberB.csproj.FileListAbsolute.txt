@@ -1,0 +1,15 @@
+C:\Users\m\source\repos\CSharpAlgorithms\ReserveNumberB\bin\Debug\net6.0\ReserveNumberB.exe
+C:\Users\m\source\repos\CSharpAlgorithms\ReserveNumberB\bin\Debug\net6.0\ReserveNumberB.deps.json
+C:\Users\m\source\repos\CSharpAlgorithms\ReserveNumberB\bin\Debug\net6.0\ReserveNumberB.runtimeconfig.json
+C:\Users\m\source\repos\CSharpAlgorithms\ReserveNumberB\bin\Debug\net6.0\ReserveNumberB.dll
+C:\Users\m\source\repos\CSharpAlgorithms\ReserveNumberB\bin\Debug\net6.0\ReserveNumberB.pdb
+C:\Users\m\source\repos\CSharpAlgorithms\ReserveNumberB\obj\Debug\net6.0\ReserveNumberB.csproj.AssemblyReference.cache
+C:\Users\m\source\repos\CSharpAlgorithms\ReserveNumberB\obj\Debug\net6.0\ReserveNumberB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\m\source\repos\CSharpAlgorithms\ReserveNumberB\obj\Debug\net6.0\ReserveNumberB.AssemblyInfoInputs.cache
+C:\Users\m\source\repos\CSharpAlgorithms\ReserveNumberB\obj\Debug\net6.0\ReserveNumberB.AssemblyInfo.cs
+C:\Users\m\source\repos\CSharpAlgorithms\ReserveNumberB\obj\Debug\net6.0\ReserveNumberB.csproj.CoreCompileInputs.cache
+C:\Users\m\source\repos\CSharpAlgorithms\ReserveNumberB\obj\Debug\net6.0\ReserveNumberB.dll
+C:\Users\m\source\repos\CSharpAlgorithms\ReserveNumberB\obj\Debug\net6.0\refint\ReserveNumberB.dll
+C:\Users\m\source\repos\CSharpAlgorithms\ReserveNumberB\obj\Debug\net6.0\ReserveNumberB.pdb
+C:\Users\m\source\repos\CSharpAlgorithms\ReserveNumberB\obj\Debug\net6.0\ReserveNumberB.genruntimeconfig.cache
+C:\Users\m\source\repos\CSharpAlgorithms\ReserveNumberB\obj\Debug\net6.0\ref\ReserveNumberB.dll
