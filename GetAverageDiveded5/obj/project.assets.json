@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\m\\Source\\Repos\\markaelie\\CSharp-Algorithms\\GetAverageDiveded5\\GetAverageDiveded5.csproj",
+      "projectUniqueName": "C:\\Users\\m\\Source\\Repos\\markulie\\CSharp-Algorithms\\GetAverageDiveded5\\GetAverageDiveded5.csproj",
       "projectName": "GetAverageDiveded5",
-      "projectPath": "C:\\Users\\m\\Source\\Repos\\markaelie\\CSharp-Algorithms\\GetAverageDiveded5\\GetAverageDiveded5.csproj",
+      "projectPath": "C:\\Users\\m\\Source\\Repos\\markulie\\CSharp-Algorithms\\GetAverageDiveded5\\GetAverageDiveded5.csproj",
       "packagesPath": "C:\\Users\\m\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\m\\Source\\Repos\\markaelie\\CSharp-Algorithms\\GetAverageDiveded5\\obj\\",
+      "outputPath": "C:\\Users\\m\\Source\\Repos\\markulie\\CSharp-Algorithms\\GetAverageDiveded5\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\m\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

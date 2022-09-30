@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\m\\Source\\Repos\\markaelie\\CSharp-Algorithms\\GetNumberFromArray\\GetNumberFromArray.csproj": {}
+    "C:\\Users\\m\\Source\\Repos\\markulie\\CSharp-Algorithms\\GetNumberFromArray\\GetNumberFromArray.csproj": {}
   },
   "projects": {
-    "C:\\Users\\m\\Source\\Repos\\markaelie\\CSharp-Algorithms\\GetNumberFromArray\\GetNumberFromArray.csproj": {
+    "C:\\Users\\m\\Source\\Repos\\markulie\\CSharp-Algorithms\\GetNumberFromArray\\GetNumberFromArray.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\m\\Source\\Repos\\markaelie\\CSharp-Algorithms\\GetNumberFromArray\\GetNumberFromArray.csproj",
+        "projectUniqueName": "C:\\Users\\m\\Source\\Repos\\markulie\\CSharp-Algorithms\\GetNumberFromArray\\GetNumberFromArray.csproj",
         "projectName": "GetNumberFromArray",
-        "projectPath": "C:\\Users\\m\\Source\\Repos\\markaelie\\CSharp-Algorithms\\GetNumberFromArray\\GetNumberFromArray.csproj",
+        "projectPath": "C:\\Users\\m\\Source\\Repos\\markulie\\CSharp-Algorithms\\GetNumberFromArray\\GetNumberFromArray.csproj",
         "packagesPath": "C:\\Users\\m\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\m\\Source\\Repos\\markaelie\\CSharp-Algorithms\\GetNumberFromArray\\obj\\",
+        "outputPath": "C:\\Users\\m\\Source\\Repos\\markulie\\CSharp-Algorithms\\GetNumberFromArray\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\m\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

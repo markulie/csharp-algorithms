@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\IsPrime"
   ],
-  "SelectedNode": "\\CSharpAlgorithms.sln",
+  "SelectedNode": "\\IsPrime\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\m\\Source\\Repos\\markaelie\\CSharp-Algorithms\\ReverseNumberA\\ReverseNumberA.csproj",
+      "projectUniqueName": "C:\\Users\\m\\Source\\Repos\\markulie\\CSharp-Algorithms\\ReverseNumberA\\ReverseNumberA.csproj",
       "projectName": "ReverseNumberA",
-      "projectPath": "C:\\Users\\m\\Source\\Repos\\markaelie\\CSharp-Algorithms\\ReverseNumberA\\ReverseNumberA.csproj",
+      "projectPath": "C:\\Users\\m\\Source\\Repos\\markulie\\CSharp-Algorithms\\ReverseNumberA\\ReverseNumberA.csproj",
       "packagesPath": "C:\\Users\\m\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\m\\Source\\Repos\\markaelie\\CSharp-Algorithms\\ReverseNumberA\\obj\\",
+      "outputPath": "C:\\Users\\m\\Source\\Repos\\markulie\\CSharp-Algorithms\\ReverseNumberA\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\m\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
