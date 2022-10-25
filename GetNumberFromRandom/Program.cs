@@ -1,14 +1,13 @@
-﻿int attemptCounter = 0;
-int attempt;
-Random number = new Random();
+﻿int attempt = 0;
+int randomNumber;
+Random rnd = new();
 do
 {
-    attempt = number.Next(1, 10000000);
-    Console.WriteLine("Number - " + attempt);
-    attemptCounter++;
-}
-while (attempt != 20);
+    randomNumber = rnd.Next(1, 100000);
+    Console.WriteLine($"Number - {randomNumber}");
+    attempt++;
+} while (randomNumber != 777);
 
-Console.WriteLine($"Total number of attempts - {attemptCounter}");
+Console.WriteLine($"Total number of attempts - {attempt}");
 
 Console.ReadLine();

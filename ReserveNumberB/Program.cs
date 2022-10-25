@@ -1,10 +1,12 @@
 ﻿int num = 480456833;
 
+int a = 0;
 while (num != 0)
 {
-    int a = num % 10;
+    a = a * 10 + num % 10;
     num /= 10;
-    Console.Write(a);
 }
+
+Console.WriteLine(a);
 
 Console.ReadLine();

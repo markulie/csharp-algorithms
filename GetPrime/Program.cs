@@ -1,11 +1,10 @@
 ﻿int num = 456428567;
 
-int n = 0;
 while (num != 0)
 {
-    n = num % 10;
+    int n = num % 10;
     num /= 10;
-    if (n == 2 || n == 3 || n == 5 || n == 7) Console.Write($"{n}, ");
+    if (n is 2 or 3 or 5 or 7) Console.Write($"{n}, ");
 }
 
 Console.ReadLine();

@@ -1,9 +1,7 @@
 ﻿int[] arr = { 3, 1, 6, 4 };
 
-int max = arr[0];
-int maxIndex = 0;
-int min = arr[0];
-int minIndex = 0;
+int max = arr[0], min = arr[0], maxIndex = 0, minIndex = 0;
+
 for (int i = 0; i < arr.Length; i++)
 {
     if (max < arr[i])
@@ -20,6 +18,6 @@ for (int i = 0; i < arr.Length; i++)
 arr[maxIndex] = min;
 arr[minIndex] = max;
 
-for (int i = 0; i < arr.Length; i++) Console.Write(arr[i] + "  ");
+foreach (int t in arr) Console.Write(t + "  ");
 
 Console.ReadLine();

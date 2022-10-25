@@ -1,29 +1,21 @@
-﻿int[] arr = { 15, 23, 36, 17, 18 };
-foreach (var item in arr) Console.Write(item.ToString() + " ");
-Console.WriteLine();
-Console.WriteLine();
+﻿int[] arr = {15, 23, 36, 17, 18};
+foreach (int i in arr) Console.Write(i + " ");
 
-int max = arr[0];
-int min = arr[0];
-int sum = 0;
-int even = 0;
-int odd = 0;
+Console.WriteLine("\n");
 
-for (int i = 0; i < arr.Length; i++)
+int max = arr[0], min = arr[0], sum = 0, even = 0, odd = 0;
+
+foreach (int i in arr)
 {
-    sum += arr[i];
-    if (arr[i] > max) max = arr[i];
-    else if (arr[i] < min) min = arr[i];
-    else if (arr[i] % 2 == 0 && arr[i] > even) even = arr[i];
-    else if (arr[i] > odd) odd = arr[i];
+    sum += i;
+    if (i > max) max = i;
+    else if (i < min) min = i;
+    else if (i % 2 == 0 && i > even) even = i;
+    else if (i > odd) odd = i;
 }
+
 int average = sum / arr.Length;
 
-Console.WriteLine($"Summary: {sum}");
-Console.WriteLine($"Average: {average}");
-Console.WriteLine($"Max: {max}");
-Console.WriteLine($"Min: {min}");
-Console.WriteLine($"Even: {even}");
-Console.WriteLine($"Odd: {odd}");
+Console.WriteLine($"Summary: {sum} \n Average: {average} \n Max: {max} \n Min: {min} \n Even: {even} \n Odd: {odd}");
 
 Console.ReadLine();
