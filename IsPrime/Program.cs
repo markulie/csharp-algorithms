@@ -1,11 +1,4 @@
-﻿while (true)
-{
-    int number = GetPositiveIntegerFromUser();
-    bool isPrime = CheckPrimeNumber(number);
-    Console.WriteLine($"{number} is {(isPrime ? "" : "NOT ")}a prime number. ");
-}
-
-static int GetPositiveIntegerFromUser()
+﻿static int GetPositiveIntegerFromUser()
 {
     while (true)
     {
@@ -30,4 +23,11 @@ static bool CheckPrimeNumber(int number)
     }
 
     return true;
+}
+
+while (true)
+{
+    int number = GetPositiveIntegerFromUser();
+    bool isPrime = CheckPrimeNumber(number);
+    Console.WriteLine($"{number} is {(isPrime ? "" : "NOT ")}a prime number. ");
 }
