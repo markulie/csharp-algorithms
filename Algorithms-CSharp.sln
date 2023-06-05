@@ -3,27 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsPrime", "IsPrime\IsPrime.csproj", "{F69E9D4A-C96D-437A-9275-26C6DF1A6950}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IsPrime", "IsPrime\IsPrime.csproj", "{F69E9D4A-C96D-437A-9275-26C6DF1A6950}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwapMaxMin", "SwapMaxMin\SwapMaxMin.csproj", "{520201FC-181E-4F17-9C8F-DBD2BCBC2152}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwapMaxMin", "SwapMaxMin\SwapMaxMin.csproj", "{520201FC-181E-4F17-9C8F-DBD2BCBC2152}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseNumberA", "ReverseNumberA\ReverseNumberA.csproj", "{944C3902-BD44-4DA0-AEB5-7B47E612747C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseNumberA", "ReverseNumberA\ReverseNumberA.csproj", "{944C3902-BD44-4DA0-AEB5-7B47E612747C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseArray", "ReverseArray\ReverseArray.csproj", "{8DCCC522-EC33-4462-8136-CFA912FB7B7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseArray", "ReverseArray\ReverseArray.csproj", "{8DCCC522-EC33-4462-8136-CFA912FB7B7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsSymmetric", "IsSymmetric\IsSymmetric.csproj", "{55832A57-BA9E-4B29-A56F-140AE414EF93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IsSymmetric", "IsSymmetric\IsSymmetric.csproj", "{55832A57-BA9E-4B29-A56F-140AE414EF93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetPrime", "GetPrime\GetPrime.csproj", "{A3B7CC19-D481-4E29-BCA9-5B88EB4EC81A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetPrime", "GetPrime\GetPrime.csproj", "{A3B7CC19-D481-4E29-BCA9-5B88EB4EC81A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetNumberFromRandom", "GetNumberFromRandom\GetNumberFromRandom.csproj", "{057B6FC4-90F3-41DA-B5F5-6C67F8949049}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetNumberFromRandom", "GetNumberFromRandom\GetNumberFromRandom.csproj", "{057B6FC4-90F3-41DA-B5F5-6C67F8949049}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetMaxofMaxRow", "GetMaxofMaxRow\GetMaxofMaxRow.csproj", "{7F1617C9-2BD0-4FFA-BB20-9EA8CD294EC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetMaxofMaxRow", "GetMaxofMaxRow\GetMaxofMaxRow.csproj", "{7F1617C9-2BD0-4FFA-BB20-9EA8CD294EC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetMax", "GetMax\GetMax.csproj", "{9CEA4242-730F-4E2A-A276-A7177D0B46EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetMax", "GetMax\GetMax.csproj", "{9CEA4242-730F-4E2A-A276-A7177D0B46EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetArrayData", "GetArrayData\GetArrayData.csproj", "{CD1ECB50-45C6-4348-884A-A2210BA34541}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetArrayData", "GetArrayData\GetArrayData.csproj", "{CD1ECB50-45C6-4348-884A-A2210BA34541}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseNumberB", "ReverseNumberB\ReverseNumberB.csproj", "{DFEBA44C-285A-4ADE-B62B-432A284336B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseNumberB", "ReverseNumberB\ReverseNumberB.csproj", "{DFEBA44C-285A-4ADE-B62B-432A284336B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindIndex", "FindIndex\FindIndex.csproj", "{2880FCFA-09C1-4550-97A9-71B25FDF063E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{DFEBA44C-285A-4ADE-B62B-432A284336B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFEBA44C-285A-4ADE-B62B-432A284336B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFEBA44C-285A-4ADE-B62B-432A284336B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2880FCFA-09C1-4550-97A9-71B25FDF063E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2880FCFA-09C1-4550-97A9-71B25FDF063E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2880FCFA-09C1-4550-97A9-71B25FDF063E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2880FCFA-09C1-4550-97A9-71B25FDF063E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
