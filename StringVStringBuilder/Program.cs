@@ -29,7 +29,7 @@ for (int i = 0; i < max; i++)
 stopwatchB.Stop();
 TimeSpan elapsedTimeB = stopwatchB.Elapsed;
 
-//---------------------------------
+//---------------------------------2
 
 Console.WriteLine($"s: {elapsedTimeS}");
 Console.WriteLine($"b: {elapsedTimeB}");
