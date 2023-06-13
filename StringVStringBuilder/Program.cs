@@ -3,7 +3,7 @@ using System.Text;
 
 string s = "s";
 StringBuilder b = new("b");
-const int max = 1000;
+const int max = 100;
 
 //---------------------------------
 
