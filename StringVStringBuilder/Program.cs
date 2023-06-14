@@ -1,11 +1,12 @@
 ﻿using System.Diagnostics;
-using System.Text; 
+using System.Text;
 
 string s = "s";
 StringBuilder b = new("b");
-const int max = 100; 
+const int max = 100;
 
 //---------------------------------
+
 
 Stopwatch stopwatchS = new();
 stopwatchS.Start();
@@ -14,6 +15,7 @@ for (int i = 0; i < max; i++)
     s += i;
     Console.WriteLine(s);
 }
+
 stopwatchS.Stop();
 TimeSpan elapsedTimeS = stopwatchS.Elapsed;
 
@@ -26,6 +28,7 @@ for (int i = 0; i < max; i++)
     b.Append(i);
     Console.WriteLine(b);
 }
+
 stopwatchB.Stop();
 TimeSpan elapsedTimeB = stopwatchB.Elapsed;
 
