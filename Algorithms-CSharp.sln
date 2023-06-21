@@ -25,9 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetArrayData", "GetArrayDat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseNumberB", "ReverseNumberB\ReverseNumberB.csproj", "{DFEBA44C-285A-4ADE-B62B-432A284336B9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindIndex", "FindIndex\FindIndex.csproj", "{2880FCFA-09C1-4550-97A9-71B25FDF063E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringVStringBuilder", "StringVStringBuilder\StringVStringBuilder.csproj", "{19E506DE-54EC-433F-8EA0-D2BDD870E77E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringVStringBuilder", "StringVStringBuilder\StringVStringBuilder.csproj", "{19E506DE-54EC-433F-8EA0-D2BDD870E77E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndexOfArray", "IndexOfArray\IndexOfArray.csproj", "{111A8DE3-CB37-45E1-B604-775B7030FACE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -79,14 +79,14 @@ Global
 		{DFEBA44C-285A-4ADE-B62B-432A284336B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFEBA44C-285A-4ADE-B62B-432A284336B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFEBA44C-285A-4ADE-B62B-432A284336B9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2880FCFA-09C1-4550-97A9-71B25FDF063E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2880FCFA-09C1-4550-97A9-71B25FDF063E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2880FCFA-09C1-4550-97A9-71B25FDF063E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2880FCFA-09C1-4550-97A9-71B25FDF063E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{19E506DE-54EC-433F-8EA0-D2BDD870E77E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{19E506DE-54EC-433F-8EA0-D2BDD870E77E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19E506DE-54EC-433F-8EA0-D2BDD870E77E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19E506DE-54EC-433F-8EA0-D2BDD870E77E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{111A8DE3-CB37-45E1-B604-775B7030FACE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{111A8DE3-CB37-45E1-B604-775B7030FACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{111A8DE3-CB37-45E1-B604-775B7030FACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{111A8DE3-CB37-45E1-B604-775B7030FACE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
