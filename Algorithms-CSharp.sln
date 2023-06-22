@@ -27,7 +27,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseNumberB", "ReverseNu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringVStringBuilder", "StringVStringBuilder\StringVStringBuilder.csproj", "{19E506DE-54EC-433F-8EA0-D2BDD870E77E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndexOfArray", "IndexOfArray\IndexOfArray.csproj", "{111A8DE3-CB37-45E1-B604-775B7030FACE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IndexOfArray", "IndexOfArray\IndexOfArray.csproj", "{111A8DE3-CB37-45E1-B604-775B7030FACE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvokeDelegate", "InvokeDelegate\InvokeDelegate.csproj", "{E865BBE6-2844-44E4-A3A3-A0B6B5AB1A5D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{111A8DE3-CB37-45E1-B604-775B7030FACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{111A8DE3-CB37-45E1-B604-775B7030FACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{111A8DE3-CB37-45E1-B604-775B7030FACE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E865BBE6-2844-44E4-A3A3-A0B6B5AB1A5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E865BBE6-2844-44E4-A3A3-A0B6B5AB1A5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E865BBE6-2844-44E4-A3A3-A0B6B5AB1A5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E865BBE6-2844-44E4-A3A3-A0B6B5AB1A5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
