@@ -1,35 +1,31 @@
 ﻿using System.Diagnostics;
 using System.Text;
 
-string s = "s";
-StringBuilder b = new("b");
-const int max = 1000;
+const int max = 100000;
 
-//- - - - - - - - - - - - - -
+TimeSpan tsS = GetTimeSpanOfString(); // 45s
+TimeSpan tsB = GetTimeSpanOfStringBuilder(); //03s
+Console.WriteLine($"String:        {tsS}");
+Console.WriteLine($"StringBuilder: {tsB}");
 
-Stopwatch stopwatchS = new();
-stopwatchS.Start();
-for (int i = 0; i < max; i++)
+static TimeSpan GetTimeSpanOfString()
 {
-    s += i;
+    Stopwatch stopwatchS = new();
+    string s = "s";
+    stopwatchS.Start();
+    for (int i = 0; i < max; i++) s += i;
     Console.WriteLine(s);
+    stopwatchS.Stop();
+    return stopwatchS.Elapsed;
 }
-stopwatchS.Stop();
-TimeSpan elapsedTimeS = stopwatchS.Elapsed;
 
-//- - - - - - - - - - - - - -
-
-Stopwatch stopwatchB = new();
-stopwatchB.Start();
-for (int i = 0; i < max; i++)
+static TimeSpan GetTimeSpanOfStringBuilder()
 {
-    b.Append(i);
+    Stopwatch stopwatchB = new();
+    StringBuilder b = new("b");
+    stopwatchB.Start();
+    for (int i = 0; i < max; i++) b.Append(i);
     Console.WriteLine(b);
+    stopwatchB.Stop();
+    return stopwatchB.Elapsed;
 }
-stopwatchB.Stop();
-TimeSpan elapsedTimeB = stopwatchB.Elapsed;
-
-//- - - - - - - - - - - - - -
-
-Console.WriteLine($"String: {elapsedTimeS}");
-Console.WriteLine($"StringBuilder: {elapsedTimeB}");
