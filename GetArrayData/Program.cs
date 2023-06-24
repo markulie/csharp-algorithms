@@ -17,5 +17,3 @@ foreach (int i in arr)
 int average = sum / arr.Length;
 
 Console.WriteLine($"Summary: {sum} \n Average: {average} \n Max: {max} \n Min: {min} \n Even: {even} \n Odd: {odd}");
-
-Console.ReadLine();

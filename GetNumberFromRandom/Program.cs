@@ -9,5 +9,3 @@ do
 } while (randomNumber != 777);
 
 Console.WriteLine($"Total number of attempts - {attempt}");
-
-Console.ReadLine();

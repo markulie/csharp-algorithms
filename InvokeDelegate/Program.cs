@@ -1,4 +1,4 @@
-﻿namespace Delegate;
+﻿namespace InvokeDelegate;
 
 internal static class Program
 {
@@ -6,7 +6,7 @@ internal static class Program
 
     private static void Main()
     {
-        MyDelegate myDelegate = new(Sing);
+        MyDelegate myDelegate = Sing;
         myDelegate += Dance;
 
         myDelegate.Invoke("I am ");

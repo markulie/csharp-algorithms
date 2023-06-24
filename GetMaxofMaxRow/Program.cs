@@ -20,5 +20,3 @@ while (maxArr != 0)
 }
 
 Console.WriteLine($"Max Number: {max}, Index: {maxIndex}");
-
-Console.ReadLine();

@@ -19,5 +19,3 @@ arr[maxIndex] = min;
 arr[minIndex] = max;
 
 foreach (int t in arr) Console.Write(t + "  ");
-
-Console.ReadLine();

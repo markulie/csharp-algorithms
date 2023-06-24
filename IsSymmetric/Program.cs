@@ -1,4 +1,4 @@
-﻿const int origin = 3436343;
+﻿const int origin = 343343;
 int num = origin;
 
 int rev = 0;
@@ -9,5 +9,3 @@ while (num != 0)
 }
 
 Console.WriteLine(origin == rev ? "Is Symmetric" : "Is Asymmetric");
-
-Console.ReadLine();

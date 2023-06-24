@@ -2,30 +2,30 @@
 using System.Text;
 
 const int max = 100000;
+GetTimeSpanOfString(); // 83s
+GetTimeSpanOfStringBuilder(); //00s
 
-TimeSpan tsS = GetTimeSpanOfString(); // 45s
-TimeSpan tsB = GetTimeSpanOfStringBuilder(); //03s
-Console.WriteLine($"String:        {tsS}");
-Console.WriteLine($"StringBuilder: {tsB}");
-
-static TimeSpan GetTimeSpanOfString()
+static void GetTimeSpanOfString()
 {
-    Stopwatch stopwatchS = new();
-    string s = "s";
-    stopwatchS.Start();
-    for (int i = 0; i < max; i++) s += i;
-    Console.WriteLine(s);
-    stopwatchS.Stop();
-    return stopwatchS.Elapsed;
+    Console.WriteLine($"String: appending {max} times");
+
+    Stopwatch stopwatch = new();
+    string text = "s";
+    stopwatch.Start();
+    for (int i = 0; i < max; i++) text += i;
+    stopwatch.Stop();
+
+    Console.WriteLine($"Time: {stopwatch.Elapsed}\r\n");
 }
-
-static TimeSpan GetTimeSpanOfStringBuilder()
+static void GetTimeSpanOfStringBuilder()
 {
-    Stopwatch stopwatchB = new();
-    StringBuilder b = new("b");
-    stopwatchB.Start();
-    for (int i = 0; i < max; i++) b.Append(i);
-    Console.WriteLine(b);
-    stopwatchB.Stop();
-    return stopwatchB.Elapsed;
+    Console.WriteLine($"StringBuilder: appending {max} times");
+
+    Stopwatch stopwatch = new();
+    StringBuilder text = new("b");
+    stopwatch.Start();
+    for (int i = 0; i < max; i++) text.Append(i);
+    stopwatch.Stop();
+
+    Console.WriteLine($"Time: {stopwatch.Elapsed}\r\n");
 }

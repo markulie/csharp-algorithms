@@ -6,5 +6,3 @@ while (num != 0)
     num /= 10;
     Console.Write(a);
 }
-
-Console.ReadLine();
