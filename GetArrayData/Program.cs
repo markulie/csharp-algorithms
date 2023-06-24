@@ -1,7 +1,7 @@
 ﻿int[] arr = {15, 23, 36, 17, 18};
 foreach (int i in arr) Console.Write(i + " ");
 
-Console.WriteLine("\n");
+Console.WriteLine("\r\n");
 
 int max = arr[0], min = arr[0], sum = 0, even = 0, odd = 0;
 
@@ -16,4 +16,4 @@ foreach (int i in arr)
 
 int average = sum / arr.Length;
 
-Console.WriteLine($"Summary: {sum} \n Average: {average} \n Max: {max} \n Min: {min} \n Even: {even} \n Odd: {odd}");
+Console.WriteLine($"Summary: {sum} \r\n Average: {average} \r\n Max: {max} \r\n Min: {min} \r\n Even: {even} \r\n Odd: {odd}");

@@ -2,10 +2,10 @@
 using System.Text;
 
 const int max = 100000;
-GetTimeSpanOfString(); // 83s
-GetTimeSpanOfStringBuilder(); //00s
+WriteTimeSpanOfString(); // 83s
+WriteTimeSpanOfStringBuilder(); //00s
 
-static void GetTimeSpanOfString()
+static void WriteTimeSpanOfString()
 {
     Console.WriteLine($"String: appending {max} times");
 
@@ -17,7 +17,7 @@ static void GetTimeSpanOfString()
 
     Console.WriteLine($"Time: {stopwatch.Elapsed}\r\n");
 }
-static void GetTimeSpanOfStringBuilder()
+static void WriteTimeSpanOfStringBuilder()
 {
     Console.WriteLine($"StringBuilder: appending {max} times");
 
