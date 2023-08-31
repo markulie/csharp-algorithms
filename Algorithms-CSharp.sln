@@ -33,6 +33,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringBenchmark", "StringBe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTypeChecker", "DataTypeChecker\DataTypeChecker.csproj", "{61D19E32-AC2E-4E94-A1F6-26941F13F421}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindIndex", "FindIndex\FindIndex.csproj", "{3266B188-2C52-4511-A58E-EE507FF58439}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{61D19E32-AC2E-4E94-A1F6-26941F13F421}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61D19E32-AC2E-4E94-A1F6-26941F13F421}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61D19E32-AC2E-4E94-A1F6-26941F13F421}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3266B188-2C52-4511-A58E-EE507FF58439}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3266B188-2C52-4511-A58E-EE507FF58439}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3266B188-2C52-4511-A58E-EE507FF58439}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3266B188-2C52-4511-A58E-EE507FF58439}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
