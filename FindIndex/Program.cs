@@ -29,6 +29,8 @@ Console.WriteLine(array.Length);
 (int, int) index2 = MyMethod(array);
 Console.WriteLine("Index: " + index2.Item1 + ", Attempts: " + index2.Item2);
 
+Console.ReadLine();
+
 static (int, int) MyMethod(int[] x)
 {
     int attempts = 0;
